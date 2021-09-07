@@ -63,6 +63,16 @@ namespace GUI_Hangman__181014080_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap home {
+            get {
+                object obj = ResourceManager.GetObject("home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Image1 {
             get {
                 object obj = ResourceManager.GetObject("Image1", resourceCulture);
@@ -145,6 +155,10 @@ namespace GUI_Hangman__181014080_.Properties {
         ///syntax
         ///error
         ///code
+        ///programming
+        ///android
+        ///website
+        ///
         ///.
         /// </summary>
         internal static string words {

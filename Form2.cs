@@ -132,23 +132,18 @@ namespace GUI_Hangman__181014080_
                 speech.SelectVoiceByHints(VoiceGender.Female);
                 
                 speech.SpeakAsync("!YOU WIN!");
-                DialogResult DR = MessageBox.Show("WOW YOU WON!!\nLet's visit main manu", "!!!Congratulations!!!!", MessageBoxButtons.YesNo);
+                DialogResult DR = MessageBox.Show("WOW YOU WON!!\nLet's Teplay", "!!!Congratulations!!!!", MessageBoxButtons.YesNo);
                 if (DR == DialogResult.Yes)
                 {
                     this.Hide();
-                    MainManu obj = new MainManu();
+                    GAME obj = new GAME();
                     obj.ShowDialog();
                 }
                 else
                 {
-                    if (System.Windows.Forms.Application.MessageLoop)
-                    {
-                        System.Windows.Forms.Application.Exit();
-                    }
-                    else
-                    {
-                        System.Environment.Exit(1);
-                    }
+                    this.Hide();
+                    MainManu obj = new MainManu();
+                    obj.ShowDialog();
                 }
             }
         }
@@ -159,23 +154,19 @@ namespace GUI_Hangman__181014080_
 
                 speech.SelectVoiceByHints(VoiceGender.Female);
                 speech.SpeakAsync("HANGMAN");
-                DialogResult DR = MessageBox.Show("Go to main manu?", "oops sorry you lost!!", MessageBoxButtons.YesNo);
+                label1.Text = THE_WORD.ToUpper();
+                DialogResult DR = MessageBox.Show("Replay?", "oops sorry you lost!!", MessageBoxButtons.YesNo);
                 if (DR == DialogResult.Yes)
                 {
                     this.Hide();
-                    MainManu obj = new MainManu();
+                    GAME obj = new GAME();
                     obj.ShowDialog();
                 }
                 else
                 {
-                    if (System.Windows.Forms.Application.MessageLoop)
-                    {
-                        System.Windows.Forms.Application.Exit();
-                    }
-                    else
-                    {
-                        System.Environment.Exit(1);
-                    }
+                    this.Hide();
+                    MainManu obj = new MainManu();
+                    obj.ShowDialog();
                 }
             }
         }

@@ -30,31 +30,21 @@ namespace GUI_Hangman__181014080_
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainManu));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.quit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ImageLocation = "C:\\Users\\Afraim\\Downloads\\1-removebg-preview.png";
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(168, 49);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 196);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Viner Hand ITC", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.button1.Location = new System.Drawing.Point(100, 251);
+            this.button1.Location = new System.Drawing.Point(175, 140);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 53);
+            this.button1.Size = new System.Drawing.Size(161, 60);
             this.button1.TabIndex = 1;
             this.button1.Text = "Play";
             this.button1.UseVisualStyleBackColor = true;
@@ -64,7 +54,7 @@ namespace GUI_Hangman__181014080_
             // 
             this.button2.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(316, 251);
+            this.button2.Location = new System.Drawing.Point(365, 192);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(102, 53);
             this.button2.TabIndex = 2;
@@ -76,7 +66,7 @@ namespace GUI_Hangman__181014080_
             // 
             this.quit.Font = new System.Drawing.Font("Viner Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quit.ForeColor = System.Drawing.Color.Red;
-            this.quit.Location = new System.Drawing.Point(208, 272);
+            this.quit.Location = new System.Drawing.Point(28, 192);
             this.quit.Name = "quit";
             this.quit.Size = new System.Drawing.Size(102, 53);
             this.quit.TabIndex = 3;
@@ -88,7 +78,7 @@ namespace GUI_Hangman__181014080_
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Viner Hand ITC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(160, 27);
+            this.label1.Location = new System.Drawing.Point(153, 65);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(219, 44);
             this.label1.TabIndex = 4;
@@ -103,7 +93,6 @@ namespace GUI_Hangman__181014080_
             this.Controls.Add(this.quit);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -111,15 +100,12 @@ namespace GUI_Hangman__181014080_
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hangman";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button quit;
