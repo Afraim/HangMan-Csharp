@@ -33,14 +33,25 @@ namespace GUI_Hangman__181014080_
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (System.Windows.Forms.Application.MessageLoop)
+            DialogResult DR = MessageBox.Show("Are you sure you want quit?", "!!!Leaving so soon!!!!", MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            if (DR == DialogResult.Yes)
             {
-                System.Windows.Forms.Application.Exit();
+                if (System.Windows.Forms.Application.MessageLoop)
+                {
+                    System.Windows.Forms.Application.Exit();
+                }
+                else
+                {
+                    System.Environment.Exit(1);
+                }
             }
             else
             {
-                System.Environment.Exit(1);
+                this.Hide();
+                MainManu obj = new MainManu();
+                obj.ShowDialog();
             }
+            
 
         }
 
