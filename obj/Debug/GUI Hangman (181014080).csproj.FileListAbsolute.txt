@@ -1,0 +1,24 @@
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\bin\Debug\GUI Hangman (181014080).exe.config
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\bin\Debug\GUI Hangman (181014080).exe
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\bin\Debug\GUI Hangman (181014080).pdb
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).csprojAssemblyReference.cache
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\obj\Debug\GUI_Hangman__181014080_.Properties.Resources.resources
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).csproj.GenerateResource.cache
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).csproj.CoreCompileInputs.cache
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).exe
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).pdb
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\obj\Debug\GUI_Hangman__181014080_.MainManu.resources
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\obj\Debug\GUI_Hangman__181014080_.GAME.resources
+F:\ULAB\semester 9\C#\GUI Hangman (181014080)\obj\Debug\GUI_Hangman__181014080_.Help.resources
+F:\New folder\GUI Hangman (181014080)\bin\Debug\GUI Hangman (181014080).exe.config
+F:\New folder\GUI Hangman (181014080)\bin\Debug\GUI Hangman (181014080).exe
+F:\New folder\GUI Hangman (181014080)\bin\Debug\GUI Hangman (181014080).pdb
+F:\New folder\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).csproj.AssemblyReference.cache
+F:\New folder\GUI Hangman (181014080)\obj\Debug\GUI_Hangman__181014080_.MainManu.resources
+F:\New folder\GUI Hangman (181014080)\obj\Debug\GUI_Hangman__181014080_.GAME.resources
+F:\New folder\GUI Hangman (181014080)\obj\Debug\GUI_Hangman__181014080_.Help.resources
+F:\New folder\GUI Hangman (181014080)\obj\Debug\GUI_Hangman__181014080_.Properties.Resources.resources
+F:\New folder\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).csproj.GenerateResource.cache
+F:\New folder\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).csproj.CoreCompileInputs.cache
+F:\New folder\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).exe
+F:\New folder\GUI Hangman (181014080)\obj\Debug\GUI Hangman (181014080).pdb
